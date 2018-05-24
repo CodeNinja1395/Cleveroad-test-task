@@ -5,12 +5,10 @@ class Location extends Component {
   render() {
 
     if (this.props.coords) {
-      let position = this.props.coords.iss_position;
-      console.log(position);
+      let position = this.props.coords.iss_position;      
       return (
         <div className="Location">
-          <h4>ISS current position:</h4> 
-          <h5> latitude: {position.latitude} longitude: {position.longitude} </h5>
+          <h4>ISS current position: latitude: {position.latitude} longitude: {position.longitude}</h4>
         </div>
       );
     }

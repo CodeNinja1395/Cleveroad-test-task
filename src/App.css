@@ -1,7 +1,68 @@
 .Location {
   float: left;
   border: 1px solid black;
-  margin: 50px;
   padding-left: 65px;
-  min-width: 300px;
+  padding-right: 182px;
+  margin-left: 45px;
+  min-width: 500px;
 }
+.Clock {
+  float: right;
+  margin-right: 260px;
+  border: 1px solid black;
+  padding-left: 90px;
+  width: 270px;
+}
+.App {
+  margin-top: 30px;
+}
+.Map{
+  height: 100%;
+  width: 100%;
+  float: left;
+ }
+ .bottomWrapper {
+
+ }
+ .marker {
+   height: 30px;
+   padding-top: -50px;
+ }
+
+ .Person {
+   display: flex;
+   align-items: center ;
+   font-family: sans-serif;
+   width: 100%;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   margin-top: 12px;
+   margin-bottom: 12px;
+   border: 2px solid grey;
+   border-radius: 11%;
+ }
+ .personsList {
+   float: right;
+   margin-top: 18px;
+   margin-right: 260px;
+   min-width: 320px;
+   padding-right: 40px;
+   padding-top: 15px;
+   padding-bottom: 20px;
+   border: 1px solid black;
+ }
+ .amount_of_people {
+   border-top: 1px solid;
+
+   margin-left: 0px;
+   margin-right: -40px;
+   padding-left: 60px;
+   height: 40px;
+
+ }
+ h5 {
+   margin-left: 15px;
+ }
+ .personsList img{
+   margin-left: 25px;
+ }
