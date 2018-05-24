@@ -5,7 +5,7 @@ class Clock extends React.Component {
       constructor(props) {
         super(props);
         this.state = {
-          time: new Date().toLocaleString()
+          time: new Date().getUTCDate()
         };
       }
       componentDidMount() {
@@ -26,7 +26,7 @@ class Clock extends React.Component {
         return (
           <div className="Clock">
             <h4>
-              The time is {this.state.time}.
+              Current time: {this.state.time}
             </h4>
           </div>
 

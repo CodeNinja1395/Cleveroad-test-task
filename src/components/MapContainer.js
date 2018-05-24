@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 const mapStyle = {
   width: '52%',
-  height: '79%',
+  height: '80%',
   position: 'relative',
-  'margin-left': '45px',
-  'margin-top': '18px'
+  marginLeft: '110px',
+  'marginTop': '18px'
 
 }
 export class MapContainer extends Component {

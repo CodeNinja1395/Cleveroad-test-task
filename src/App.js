@@ -15,11 +15,6 @@ class App extends Component {
     }
   }
 
-  // componentDidMount(){
-  //   this.interval = setInterval(() => axios.get('http://api.open-notify.org/iss-now.json')
-  //   .then(e => this.setState({ISSInfo: e}))
-  //   ,5000);
-  // }
   componentDidMount(){
     this.interval = setInterval(() => axios.all([
       axios.get('http://api.open-notify.org/iss-now.json'),
@@ -80,7 +75,7 @@ class App extends Component {
             <ul>
                {astros}
             </ul>
-            <div className="amount_of_people">              
+            <div className="amount_of_people">
                <h4>Total amount: {astros.length} people on ISS</h4>
             </div>
           </div>

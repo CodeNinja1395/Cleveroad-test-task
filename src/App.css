@@ -3,14 +3,15 @@
   border: 1px solid black;
   padding-left: 65px;
   padding-right: 182px;
-  margin-left: 45px;
+  margin-left: 110px;
   min-width: 500px;
 }
 .Clock {
   float: right;
-  margin-right: 260px;
+  margin-right: 180px;
   border: 1px solid black;
   padding-left: 90px;
+  align-items: center;
   width: 270px;
 }
 .App {
@@ -44,7 +45,7 @@
  .personsList {
    float: right;
    margin-top: 18px;
-   margin-right: 260px;
+   margin-right: 180px;
    min-width: 320px;
    padding-right: 40px;
    padding-top: 15px;
@@ -57,12 +58,15 @@
    margin-left: 0px;
    margin-right: -40px;
    padding-left: 60px;
-   height: 40px;
+   height: 37px;
 
  }
- h5 {
-   margin-left: 15px;
+ .Clock h4 {
+   margin-left: -35px;
  }
  .personsList img{
    margin-left: 25px;
+ }
+ .personsList h5 {
+   margin-left: 15px;
  }
